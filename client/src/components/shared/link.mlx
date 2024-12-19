@@ -1,9 +1,0 @@
-open React
-
-let[@react.component] make ~href ~className ~children =
-  let onClick e =
-    Event.Mouse.preventDefault e;
-    ReasonReactRouter.push href
-  in
-  <a href onClick className>children</a>
-;;

@@ -1,7 +1,0 @@
-(library
- (name utils)
- (modes melange)
- (libraries melange-fetch)
- (preprocess (pps melange.ppx))
- (modules fetcher date_fns))
-

@@ -1,7 +1,0 @@
-(library
- (name components)
- (modes melange)
- (libraries reason-react melange.belt bindings ctx shared ui components_guests)
- (preprocess (pps melange.ppx reason-react-ppx))
- (modules nav user_dropdown))
-

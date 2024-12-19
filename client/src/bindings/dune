@@ -1,7 +1,0 @@
-(library
- (name bindings)
- (modes melange)
- (libraries reason-react melange.belt)
- (preprocess (pps melange.ppx reason-react-ppx))
- (modules headless_ui radix))
-

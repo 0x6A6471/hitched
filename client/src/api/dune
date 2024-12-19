@@ -1,7 +1,0 @@
-(library
- (name api)
- (modes melange)
- (libraries reason-react melange.belt melange-fetch melange-json melange-tanstack-react-query utils)
- (preprocess (pps melange.ppx reason-react-ppx))
- (modules guests))
-

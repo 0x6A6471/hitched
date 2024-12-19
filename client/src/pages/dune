@@ -1,7 +1,0 @@
-(library
- (name pages)
- (modes melange)
- (libraries reason-react melange.belt ctx api components)
- (preprocess (pps melange.ppx reason-react-ppx))
- (modules login dashboard guests))
-
